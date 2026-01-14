@@ -9,4 +9,4 @@
 	url = https://github.com/OnionUI/app-DinguxCommander
 [submodule "third-party/RetroArch-patch"]
 	path = third-party/RetroArch-patch
-	url = https://github.com/OnionUI/RetroArch-patch
+	url = https://github.com/RdrSeraphim/RetroArch-patch
