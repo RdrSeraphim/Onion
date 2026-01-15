@@ -15,16 +15,14 @@ body:
       label: Checklist
       description: Please confirm the following in order to prevent misuse of issues
       options:
-        - label: I am reporting a bug in the Onion OS - Any issues with the closed source frontend ([MainUI](https://github.com/OnionUI/MainUI-issues)), or [RetroArch](https://github.com/libretro/RetroArch) or any of the cores should be directed to their respective repositories
-          required: true
-        - label: I have reviewed the [Onion Docs](https://onionui.github.io/docs) and did not find the answer
+        - label: I am reporting a bug specific to the changes in this repository - Any issues with [Onion OS as a whole](https://github.com/OnionUI/Onion), the closed source frontend ([MainUI](https://github.com/OnionUI/MainUI-issues)), or [RetroArch](https://github.com/libretro/RetroArch) or any of the cores should be directed to their respective repositories
           required: true
         - label: I have searched the existing (open and closed) issues to ensure I do not log a duplicate
           required: true
   - type: input
     id: os
     attributes:
-      label: Onions OS Version
+      label: Onion OS Version
       description: Provide the version of Onion which you are using
       placeholder: Visible on the Onion boot screen
     validations:
@@ -34,7 +32,7 @@ body:
     attributes:
       label: Miyoo Firmware Version
       description: Provide the version of Miyoo Firmware which you are using
-      placeholder: Go to Settings->Device Info->Version
+      placeholder: Go to Settings -> Device Info -> Version
     validations:
       required: true
   - type: textarea
