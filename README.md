@@ -1,4 +1,4 @@
-See [here](https://github.com/RdrSeraphim/Onion/blob/main/ABOUT.md) to see what this repo is about.
+### As of 17 Jan 2026, the maintainers are back and a new beta has been released. This repo is archived.
 
 <p>&nbsp;</p>
 
